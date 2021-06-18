@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "build": "node index.js"
+    "build": "netlify-lambda build express"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,9 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.9",
     "mongoose": "^5.12.13",
+    "netlify-lambda": "^2.0.9",
     "nodemailer": "^6.6.1",
+    "serverless-http": "^2.7.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
