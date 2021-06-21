@@ -15,7 +15,7 @@ const App: FC = () => {
     if (localStorage.getItem("token")) {
       store.checkAuth();
     }
-  }, []);
+  }, [store]);
 
   const getUsers = async () => {
     try {
